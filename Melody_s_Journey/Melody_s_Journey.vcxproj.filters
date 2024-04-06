@@ -13,10 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\Manager">
+      <UniqueIdentifier>{6454b9a2-15fd-4696-8b49-be5453dffb2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\Base">
+      <UniqueIdentifier>{5ee78c89-c339-41f1-9ad1-689e204562bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\Texture">
+      <UniqueIdentifier>{ad197ed7-3145-4291-8f43-19aff8263b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\Timer">
+      <UniqueIdentifier>{026bc184-f991-461c-a75d-82ca93fb2559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\Window">
+      <UniqueIdentifier>{40dfcf13-7f65-4cd3-9b10-1c92d5c9cc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\Font">
+      <UniqueIdentifier>{b29b8ee7-8cdc-4e07-9701-db358500460c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Fichiers sources\Manager\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureData.cpp">
+      <Filter>Fichiers sources\Manager\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Fichiers sources\Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Fichiers sources\Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Fichiers sources\Manager\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Fichiers sources\Manager\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FontData.cpp">
+      <Filter>Fichiers sources\Manager\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IManagable.h">
+      <Filter>Fichiers sources\Manager\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="IManager.h">
+      <Filter>Fichiers sources\Manager\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Fichiers sources\Manager\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Fichiers sources\Manager\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>Fichiers sources\Manager\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fichiers sources\Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Fichiers sources\Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Fichiers sources\Manager\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Fichiers sources\Manager\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontData.h">
+      <Filter>Fichiers sources\Manager\Font</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
