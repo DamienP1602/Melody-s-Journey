@@ -8,9 +8,9 @@ using namespace std;
 template<typename Key, typename Value>
 class IManager
 {
-	Value* current;
+	Value* current = nullptr;
 protected:
-	map<Key, Value*> allValues;
+	map<Key, Value*> allValues = map<Key, Value*>();
 
 public:
 	~IManager()
