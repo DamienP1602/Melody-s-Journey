@@ -1,9 +1,7 @@
-#include <SFML/Graphics.hpp>
-
-using namespace sf;
-
+#include "Character.h"
 
 int main()
 {
+	Character _char;
 
 }

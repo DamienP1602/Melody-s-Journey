@@ -43,6 +43,9 @@
     <Filter Include="Fichiers sources\Component\Animation">
       <UniqueIdentifier>{17a92a99-d1c5-4982-bb96-cde752323491}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Characters">
+      <UniqueIdentifier>{b9f4871e-114b-4632-92c7-36271fab8c23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="Component.cpp">
       <Filter>Fichiers sources\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Fichiers sources\Characters</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +151,9 @@
     </ClInclude>
     <ClInclude Include="Component.h">
       <Filter>Fichiers sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Fichiers sources\Characters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
