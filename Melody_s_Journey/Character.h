@@ -1,10 +1,9 @@
 #pragma once
 #include <iostream>
-
+#include "Weapon.h"
+#include "Trinket.h"
 using namespace std;
 
-typedef unsigned short usV; // unsigned short value
-typedef short sV; // short value
 
 enum CharacterType
 {
@@ -113,8 +112,13 @@ class Character
 	sV healReceive = 0;
 	usV cooldownReduction = 0;
 
+	Weapon* weapon = nullptr;
+	Trinket* trinket = nullptr;
+
 	CharacterType type = CT_NONE;
 	DominantStat dominantStat = DS_NONE;
+
+	bool mastery = false;
 
 public:
 	CharacterType GetType() const
@@ -137,10 +141,13 @@ public:
 public:
 	Character(const string& _name,const CharacterType& _type, const DominantStat& _dominantStat);
 
+private:
 	void Init();
-
-	void GainXP();
 	void LevelUp();
 	void CalculExperienceCap();
+
+public:
+	void GainXP(usV _xp);
+
 };
 

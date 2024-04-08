@@ -25,16 +25,39 @@ void Character::Init()
 	default:
 		break;
 	}
+
+	CalculExperienceCap();
 }
 
-void Character::GainXP()
+void Character::GainXP(usV _xp)
 {
+	while (_xp != 0)
+	{
+		experience++;
+		_xp--;
+
+		if (experience == experienceCap)
+		{
+			LevelUp();
+			CalculExperienceCap();
+			experience = 0;
+		}
+	}
 }
 
 void Character::LevelUp()
 {
+	level++;
+	if (level % 2 == 0)
+	{
+		strength++;
+		intelligence++;
+		agility++;
+	}
+	maxHealth += 10;
 }
 
 void Character::CalculExperienceCap()
 {
+	experienceCap = 100 * (2 + level);
 }

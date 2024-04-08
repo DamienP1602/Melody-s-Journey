@@ -49,6 +49,9 @@
     <Filter Include="Fichiers sources\Characters\OneStar">
       <UniqueIdentifier>{776ae6ec-8ea3-4aa4-9af3-bfce1baec3a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Characters\Items">
+      <UniqueIdentifier>{222f14aa-f970-4230-a218-1806488d3d21}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -101,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="OneStarCharacter.cpp">
       <Filter>Fichiers sources\Characters\OneStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Trinket.cpp">
+      <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +172,12 @@
     </ClInclude>
     <ClInclude Include="OneStarCharacter.h">
       <Filter>Fichiers sources\Characters\OneStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Trinket.h">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
