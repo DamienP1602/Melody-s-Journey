@@ -46,6 +46,9 @@
     <Filter Include="Fichiers sources\Characters">
       <UniqueIdentifier>{b9f4871e-114b-4632-92c7-36271fab8c23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Characters\OneStar">
+      <UniqueIdentifier>{776ae6ec-8ea3-4aa4-9af3-bfce1baec3a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -95,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="Character.cpp">
       <Filter>Fichiers sources\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="OneStarCharacter.cpp">
+      <Filter>Fichiers sources\Characters\OneStar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="Character.h">
       <Filter>Fichiers sources\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="OneStarCharacter.h">
+      <Filter>Fichiers sources\Characters\OneStar</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

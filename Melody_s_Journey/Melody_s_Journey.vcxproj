@@ -145,6 +145,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MusicData.cpp" />
     <ClCompile Include="MusicManager.cpp" />
+    <ClCompile Include="OneStarCharacter.cpp" />
     <ClCompile Include="SoundData.cpp" />
     <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="TextureData.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Macro.h" />
     <ClInclude Include="MusicData.h" />
     <ClInclude Include="MusicManager.h" />
+    <ClInclude Include="OneStarCharacter.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SoundData.h" />
     <ClInclude Include="SoundManager.h" />
