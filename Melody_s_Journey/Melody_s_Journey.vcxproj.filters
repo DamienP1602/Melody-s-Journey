@@ -52,11 +52,32 @@
     <Filter Include="Fichiers sources\Characters\Items">
       <UniqueIdentifier>{222f14aa-f970-4230-a218-1806488d3d21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Characters\TwoStar">
+      <UniqueIdentifier>{64f76b3d-9133-40e1-b978-8c8779a6fd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Characters\ThreeStar">
+      <UniqueIdentifier>{30e6c6ac-5930-4ced-8d14-8d0be0f377d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{3d5206ca-3b89-4636-96ae-6b93b747c351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager\HUD">
+      <UniqueIdentifier>{4495ab19-dd2b-4e21-813a-265135b6515d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics">
+      <UniqueIdentifier>{9f3ba00e-1dd3-499d-92bf-d7a646712560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics\Widget">
+      <UniqueIdentifier>{5e0548c0-04a9-4701-bc86-86288a20d7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics\Mouse">
+      <UniqueIdentifier>{25ab9b81-c7db-4a04-82de-e1469581521d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics\Canva">
+      <UniqueIdentifier>{d4eb4bed-90f1-4309-b032-1e9ef77e3648}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="TextureManager.cpp">
       <Filter>Fichiers sources\Manager\Texture</Filter>
     </ClCompile>
@@ -102,14 +123,29 @@
     <ClCompile Include="Character.cpp">
       <Filter>Fichiers sources\Characters</Filter>
     </ClCompile>
-    <ClCompile Include="OneStarCharacter.cpp">
-      <Filter>Fichiers sources\Characters\OneStar</Filter>
+    <ClCompile Include="Trinket.cpp">
+      <Filter>Fichiers sources\Characters\Items</Filter>
     </ClCompile>
     <ClCompile Include="Weapon.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Characters\Items</Filter>
     </ClCompile>
-    <ClCompile Include="Trinket.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Fichiers sources\Manager\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Fichiers sources\Graphics\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Canva.cpp">
+      <Filter>Fichiers sources\Graphics\Canva</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseWidget.cpp">
+      <Filter>Fichiers sources\Graphics\Mouse</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -124,9 +160,6 @@
     </ClInclude>
     <ClInclude Include="TimerManager.h">
       <Filter>Fichiers sources\Manager\Timer</Filter>
-    </ClInclude>
-    <ClInclude Include="Macro.h">
-      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="GameWindow.h">
       <Filter>Fichiers sources\Manager\Window</Filter>
@@ -170,14 +203,29 @@
     <ClInclude Include="Character.h">
       <Filter>Fichiers sources\Characters</Filter>
     </ClInclude>
-    <ClInclude Include="OneStarCharacter.h">
-      <Filter>Fichiers sources\Characters\OneStar</Filter>
-    </ClInclude>
     <ClInclude Include="Weapon.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers sources\Characters\Items</Filter>
     </ClInclude>
     <ClInclude Include="Trinket.h">
+      <Filter>Fichiers sources\Characters\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Fichiers sources\Manager\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Fichiers sources\Graphics\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Canva.h">
+      <Filter>Fichiers sources\Graphics\Canva</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseWidget.h">
+      <Filter>Fichiers sources\Graphics\Mouse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

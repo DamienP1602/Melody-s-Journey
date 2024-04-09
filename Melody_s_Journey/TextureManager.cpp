@@ -3,7 +3,8 @@
 #include <iostream>
 void TextureManager::Load(Shape* _shape, const string& _path, const bool _isRepeated, const bool _isSmooth)
 {
-    if (_path == "")return;
+    if (_path == "")
+        return;
 
     TextureData* _textureData = Get(_path);
 

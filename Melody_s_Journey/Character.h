@@ -129,14 +129,8 @@ public:
 	{
 		return dominantStat;
 	}
-	BasicStat GetBasicStat() const
-	{
-		return BasicStat(maxHealth, currentHealth, strength, intelligence, agility, damage, speed);
-	}
-	SpecialStat GetSpecialStat() const
-	{
-		return SpecialStat(damage, damageReceive, endTurnDamage, healDeal, healReceive, cooldownReduction);
-	}
+	BasicStat GetBasicStat() const;
+	SpecialStat GetSpecialStat() const;
 
 public:
 	Character(const string& _name,const CharacterType& _type, const DominantStat& _dominantStat);
@@ -146,8 +140,10 @@ private:
 	void LevelUp();
 	void CalculExperienceCap();
 
+	usV GetDamage();
+	bool ReduceHealth(const usV& _damage);
+
 public:
 	void GainXP(usV _xp);
-
+	void BasicDamage(Character* _target);
 };
-

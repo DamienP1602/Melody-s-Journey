@@ -10,7 +10,7 @@ class IManager
 {
 	Value* current = nullptr;
 protected:
-	map<Key, Value*> allValues = map<Key, Value*>();
+	map<Key, Value*> allValues;
 
 public:
 	~IManager()
@@ -92,6 +92,9 @@ public:
 	}
 	bool Exist(const Key& _key) const
 	{
+		if (allValues.size() == 0)
+			return false;
+
 		return allValues.find(_key) != allValues.end();
 	}
 	bool Exist(Value* _value) const

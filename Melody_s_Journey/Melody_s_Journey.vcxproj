@@ -137,15 +137,18 @@
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="Canva.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="FontData.cpp" />
     <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="HUD.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MouseWidget.cpp" />
     <ClCompile Include="MusicData.cpp" />
     <ClCompile Include="MusicManager.cpp" />
-    <ClCompile Include="OneStarCharacter.cpp" />
     <ClCompile Include="SoundData.cpp" />
     <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="TextureData.cpp" />
@@ -154,21 +157,25 @@
     <ClCompile Include="TimerManager.cpp" />
     <ClCompile Include="Trinket.cpp" />
     <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Widget.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="Canva.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="FontData.h" />
     <ClInclude Include="FontManager.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="HUD.h" />
     <ClInclude Include="IManagable.h" />
     <ClInclude Include="IManager.h" />
     <ClInclude Include="Macro.h" />
+    <ClInclude Include="MouseWidget.h" />
     <ClInclude Include="MusicData.h" />
     <ClInclude Include="MusicManager.h" />
-    <ClInclude Include="OneStarCharacter.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SoundData.h" />
     <ClInclude Include="SoundManager.h" />
@@ -178,6 +185,7 @@
     <ClInclude Include="TimerManager.h" />
     <ClInclude Include="Trinket.h" />
     <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
