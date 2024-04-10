@@ -1,9 +1,5 @@
 #include "HUD.h"
-
-HUD::HUD()
-{
-    mouse->Init();
-}
+#include "GameWindow.h"
 
 HUD::~HUD()
 {
@@ -16,5 +12,11 @@ vector<Drawable*> HUD::GetActualCanvaInVector()
 
     _drawables.push_back(mouse->GetShape());
     
-    return vector<Drawable*>();
+    return _drawables;
+}
+
+void HUD::Update(const Event& _event)
+{
+    const Vector2f& _mousePosition = Vector2f(Mouse::getPosition(*WINDOW));
+    mouse->GetShape()->setPosition(_mousePosition);
 }

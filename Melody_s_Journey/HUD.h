@@ -10,9 +10,16 @@ class HUD : public Singleton<HUD>, public IManager<string,Canva>
 	MouseWidget* mouse = new MouseWidget();
 
 public:
-	HUD();
-	~HUD();
+	MouseWidget* GetMouse() const
+	{
+		return mouse;
+	}
 
+
+public:
+	~HUD();
+public:
 	vector<Drawable*> GetActualCanvaInVector();
+	void Update(const Event& _event);
 };
 

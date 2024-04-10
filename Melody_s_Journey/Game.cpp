@@ -11,6 +11,12 @@ void Game::Start()
 
 void Game::Init()
 {
+	InitMouse();
+}
+
+void Game::InitMouse()
+{
+	HUD::GetInstance().GetMouse()->Init();
 }
 
 void Game::Update()
@@ -18,10 +24,12 @@ void Game::Update()
 	while (WINDOW->isOpen())
 	{
 		Event _event;
-		while(WINDOW->pollEvent(_event))
+		while (WINDOW->pollEvent(_event))
 		{
 			if (_event.type == Event::Closed) WINDOW->close();
 		}
+		HUD::GetInstance().Update(_event);
+		Display();
 	}
 
 }
