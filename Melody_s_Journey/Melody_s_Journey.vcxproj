@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="BattleCanva.cpp" />
     <ClCompile Include="Canva.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Component.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="MouseWidget.cpp" />
     <ClCompile Include="MusicData.cpp" />
     <ClCompile Include="MusicManager.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SoundData.cpp" />
     <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="TextureData.cpp" />
@@ -162,6 +164,7 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="BattleCanva.h" />
     <ClInclude Include="Canva.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Component.h" />
@@ -176,6 +179,7 @@
     <ClInclude Include="MouseWidget.h" />
     <ClInclude Include="MusicData.h" />
     <ClInclude Include="MusicManager.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SoundData.h" />
     <ClInclude Include="SoundManager.h" />

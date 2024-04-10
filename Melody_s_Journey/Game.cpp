@@ -2,6 +2,11 @@
 #include "HUD.h"
 #include "Macro.h"
 
+Game::~Game()
+{
+	delete player;
+}
+
 void Game::Start()
 {
 	Init();

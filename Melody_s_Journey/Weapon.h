@@ -1,10 +1,9 @@
 #pragma once
 #include <functional>
+#include "Macro.h"
 
 using namespace std;
 
-typedef unsigned short usV; // unsigned short value
-typedef short sV; // short value
 
 enum Trigger
 {

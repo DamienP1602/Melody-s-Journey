@@ -1,7 +1,5 @@
 #pragma once
-
-typedef unsigned short usV; // unsigned short value
-typedef short sV; // short value
+#include "Macro.h"
 
 struct Trinket
 {

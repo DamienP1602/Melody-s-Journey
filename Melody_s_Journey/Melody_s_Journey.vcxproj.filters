@@ -76,6 +76,12 @@
     <Filter Include="Fichiers sources\Graphics\Canva">
       <UniqueIdentifier>{d4eb4bed-90f1-4309-b032-1e9ef77e3648}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Game\Player">
+      <UniqueIdentifier>{9423340b-d5fc-41e6-abaf-bdff26dcadef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics\Canva\BattleCanva">
+      <UniqueIdentifier>{ede8e90d-0b22-44ce-adc1-a02ce9ae9775}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextureManager.cpp">
@@ -147,6 +153,12 @@
     <ClCompile Include="MouseWidget.cpp">
       <Filter>Fichiers sources\Graphics\Mouse</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCanva.cpp">
+      <Filter>Fichiers sources\Graphics\Canva\BattleCanva</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextureManager.h">
@@ -209,12 +221,6 @@
     <ClInclude Include="Trinket.h">
       <Filter>Fichiers sources\Characters\Items</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Macro.h">
-      <Filter>Fichiers sources\Game</Filter>
-    </ClInclude>
     <ClInclude Include="HUD.h">
       <Filter>Fichiers sources\Manager\HUD</Filter>
     </ClInclude>
@@ -226,6 +232,18 @@
     </ClInclude>
     <ClInclude Include="MouseWidget.h">
       <Filter>Fichiers sources\Graphics\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers sources\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCanva.h">
+      <Filter>Fichiers sources\Graphics\Canva\BattleCanva</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
