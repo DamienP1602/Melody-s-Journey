@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "HUD.h"
 #include "Macro.h"
+#include "BattleCanva.h"
 
 Game::~Game()
 {
@@ -17,6 +18,7 @@ void Game::Start()
 void Game::Init()
 {
 	InitMouse();
+	new BattleCanva();
 }
 
 void Game::InitMouse()

@@ -4,5 +4,10 @@
 class BattleCanva : public Canva
 {
 
+public:
+	BattleCanva();
+
+public:
+	void Init();
 };
 

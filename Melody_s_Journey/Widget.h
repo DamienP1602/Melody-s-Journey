@@ -14,6 +14,10 @@ public:
 		return shape;
 	}
 
+	void SetDrawable(bool _set)
+	{
+		isDrawable = _set;
+	}
 public:
 	~Widget();
 };
